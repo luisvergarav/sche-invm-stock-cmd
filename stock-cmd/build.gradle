@@ -63,7 +63,9 @@ dependencies {
 	implementation('org.springframework.boot:spring-boot-starter-data-rest')
 	
 	  compile "corp.falabella.event:event-adapter-azureservicebus-support:${eventAdapterASBVersion}"
-	
+	testCompile ("org.springframework.boot:spring-boot-starter-test:${springBootVersion}"){
+	 	exclude group: 'com.jayway.jsonpath' 
+	 	}
 	
    	compileOnly("org.projectlombok:lombok:1.16.10")
    	// https://mvnrepository.com/artifact/com.microsoft.azure/azure-servicebus-spring-boot-starter
