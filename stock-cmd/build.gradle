@@ -77,6 +77,8 @@ dependencies {
 	compile group: 'com.microsoft.azure', name: 'azure-eventhubs', version: '2.1.0'
 	// https://mvnrepository.com/artifact/com.microsoft.azure/azure-mgmt-eventhub
 	compile group: 'com.microsoft.azure', name: 'azure-mgmt-eventhub', version: '1.7.0'
+	// https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-netflix-core
+	compile group: 'org.springframework.cloud', name: 'spring-cloud-netflix-core', version: '1.0.0.RELEASE'
 	
 	//swagger
 		compile "io.springfox:springfox-swagger-ui:${springfoxVersion}"

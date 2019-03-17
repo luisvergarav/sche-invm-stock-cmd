@@ -1,4 +1,4 @@
-package rtl.tot.corp.sche.invm.cmd.stockcmd.domain.events;
+package rtl.tot.corp.sche.invm.cmd.stockcmd.infraestructure.adapters.output.asb;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,0 +1,454 @@
+2019-03-14 11:13:10  INFO - Starting StockCmdApplication on MOEXT_LAVER with PID 1872 (C:\addesa\API\Peru\Tottus\Orion\Desarrollo\stock\cmd\stock-cmd\bin\main started by ext_lavergarav in C:\addesa\API\Peru\Tottus\Orion\Desarrollo\stock\cmd\stock-cmd) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:13:10  INFO - No active profile set, falling back to default profiles: default - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:13:11  INFO - Bootstrapping Spring Data repositories in DEFAULT mode. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:13:11  INFO - Finished Spring Data repository scanning in 144ms. Found 1 repository interfaces. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:13:12  INFO - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$68fd1b04] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:13:13  INFO - Tomcat initialized with port(s): 8083 (http) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:13:13  INFO - Initializing ProtocolHandler ["http-nio-8083"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:13:13  INFO - Starting service [Tomcat] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:13:13  INFO - Starting Servlet engine: [Apache Tomcat/9.0.14] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:13:13  INFO - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\environments\oracle\java\8\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files (x86)/Java/jre1.8.0_201/bin/client;C:/Program Files (x86)/Java/jre1.8.0_201/bin;C:/Program Files (x86)/Java/jre1.8.0_201/lib/i386;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\environments\oracle\db\10g\app\oracle\product\10.2.0\server\bin;C:\app\ext_lavergarav\product\12.1.0\dbhome_1\bin;C:\environments\oracle\db\12.1.0\dbhome_1\bin;C:\sybase\Shared\Sybase Central 4.3;C:\sybase\OCS-12_5\lib3p;C:\sybase\OCS-12_5\dll;C:\sybase\OCS-12_5\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Lenovo\Access Connections\;C:\Program Files\Lenovo\Fingerprint Manager Pro\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\SDL International\SDLX;C:\Program Files\MATLAB\R2016b\bin;C:\Users\ext_lavergarav\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\PuTTY\;C:\Program Files\Java\jdk1.8.0_192\bin;C:\Users\ext_lavergarav\.azure-kubectl;C:\Program Files\Git\cmd;C:\Program Files (x86)\Nmap;C:\Program Files\Docker Toolbox;C:\Users\ext_lavergarav\Desktop\sts-bundle\sts-3.9.3.RELEASE;;.] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:13:13  INFO - Initializing Spring embedded WebApplicationContext - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:13:13  INFO - Root WebApplicationContext: initialization completed in 3655 ms - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:13:15  WARN - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'createStockCommandBus' defined in file [C:\addesa\API\Peru\Tottus\Orion\Desarrollo\stock\cmd\stock-cmd\bin\main\rtl\tot\corp\sche\invm\cmd\stockcmd\application\adapters\CreateStockCommandBus.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'createStockHandler' defined in file [C:\addesa\API\Peru\Tottus\Orion\Desarrollo\stock\cmd\stock-cmd\bin\main\rtl\tot\corp\sche\invm\cmd\stockcmd\application\adapters\CreateStockHandler.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'stockServiceApplicationImpl': Unsatisfied dependency expressed through field 'service'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'stockService' defined in file [C:\addesa\API\Peru\Tottus\Orion\Desarrollo\stock\cmd\stock-cmd\bin\main\rtl\tot\corp\sche\invm\cmd\stockcmd\domain\model\StockService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'stockRepository': Unsatisfied dependency expressed through method 'setDocumentDbOperations' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.microsoft.azure.spring.autoconfigure.cosmosdb.DocumentDBAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'azure.cosmosdb-com.microsoft.azure.spring.autoconfigure.cosmosdb.DocumentDBProperties': Could not bind properties to 'DocumentDBProperties' : prefix=azure.cosmosdb, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'azure.cosmosdb' to com.microsoft.azure.spring.autoconfigure.cosmosdb.DocumentDBProperties - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:13:15  INFO - Stopping service [Tomcat] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:13:15  INFO - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:13:15 ERROR - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Binding to target org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'azure.cosmosdb' to com.microsoft.azure.spring.autoconfigure.cosmosdb.DocumentDBProperties failed:
+
+    Property: azure.cosmosdb.uri
+    Value: null
+    Reason: no puede estar vacío
+
+    Property: azure.cosmosdb.database
+    Value: null
+    Reason: no puede estar vacío
+
+    Property: azure.cosmosdb.key
+    Value: null
+    Reason: no puede estar vacío
+
+
+Action:
+
+Update your application's configuration
+ - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:26:53  INFO - Starting StockCmdApplication on MOEXT_LAVER with PID 2432 (C:\addesa\API\Peru\Tottus\Orion\Desarrollo\stock\cmd\stock-cmd\bin\main started by ext_lavergarav in C:\addesa\API\Peru\Tottus\Orion\Desarrollo\stock\cmd\stock-cmd) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:26:53  INFO - No active profile set, falling back to default profiles: default - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:26:54  INFO - Bootstrapping Spring Data repositories in DEFAULT mode. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:26:55  INFO - Finished Spring Data repository scanning in 94ms. Found 1 repository interfaces. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:26:55  INFO - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$24328784] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:26:56  INFO - Tomcat initialized with port(s): 8083 (http) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:26:56  INFO - Initializing ProtocolHandler ["http-nio-8083"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:26:56  INFO - Starting service [Tomcat] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:26:56  INFO - Starting Servlet engine: [Apache Tomcat/9.0.14] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:26:56  INFO - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\environments\oracle\java\8\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files (x86)/Java/jre1.8.0_201/bin/client;C:/Program Files (x86)/Java/jre1.8.0_201/bin;C:/Program Files (x86)/Java/jre1.8.0_201/lib/i386;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\environments\oracle\db\10g\app\oracle\product\10.2.0\server\bin;C:\app\ext_lavergarav\product\12.1.0\dbhome_1\bin;C:\environments\oracle\db\12.1.0\dbhome_1\bin;C:\sybase\Shared\Sybase Central 4.3;C:\sybase\OCS-12_5\lib3p;C:\sybase\OCS-12_5\dll;C:\sybase\OCS-12_5\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Lenovo\Access Connections\;C:\Program Files\Lenovo\Fingerprint Manager Pro\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\SDL International\SDLX;C:\Program Files\MATLAB\R2016b\bin;C:\Users\ext_lavergarav\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\PuTTY\;C:\Program Files\Java\jdk1.8.0_192\bin;C:\Users\ext_lavergarav\.azure-kubectl;C:\Program Files\Git\cmd;C:\Program Files (x86)\Nmap;C:\Program Files\Docker Toolbox;C:\Users\ext_lavergarav\Desktop\sts-bundle\sts-3.9.3.RELEASE;;.] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:26:56  INFO - Initializing Spring embedded WebApplicationContext - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:26:56  INFO - Root WebApplicationContext: initialization completed in 3293 ms - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:27:06  INFO - Initializing DocumentClient with serviceEndpoint [https://tot-sche-invm-stock.documents.azure.com:443/], ConnectionPolicy [ConnectionPolicy [requestTimeout=60, mediaRequestTimeout=300, connectionMode=Gateway, mediaReadMode=Buffered, maxPoolSize=400, idleConnectionTimeout=60, userAgentSuffix=, retryOptions=com.microsoft.azure.documentdb.RetryOptions@1cda923, enableEndpointDiscovery=true, preferredLocations=null]], ConsistencyLevel [null] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:27:14  WARN - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'stockController': Unsatisfied dependency expressed through field 'cmdBus'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'rtl.tot.corp.sche.invm.cmd.stockcmd.application.adapters.DecoratorCreateStockCommandBus' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)} - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:27:14  INFO - Closing DocumentClient - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:27:14  WARN - Preferred location background task was interrupted - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:27:14  INFO - Stopping service [Tomcat] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:27:14  INFO - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:27:14 ERROR - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field cmdBus in rtl.tot.corp.sche.invm.cmd.stockcmd.controllers.StockController required a bean of type 'rtl.tot.corp.sche.invm.cmd.stockcmd.application.adapters.DecoratorCreateStockCommandBus' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'rtl.tot.corp.sche.invm.cmd.stockcmd.application.adapters.DecoratorCreateStockCommandBus' in your configuration.
+ - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:28:40  INFO - Starting StockCmdApplication on MOEXT_LAVER with PID 16376 (C:\addesa\API\Peru\Tottus\Orion\Desarrollo\stock\cmd\stock-cmd\bin\main started by ext_lavergarav in C:\addesa\API\Peru\Tottus\Orion\Desarrollo\stock\cmd\stock-cmd) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:28:40  INFO - No active profile set, falling back to default profiles: default - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:28:41  INFO - Bootstrapping Spring Data repositories in DEFAULT mode. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:28:41  INFO - Finished Spring Data repository scanning in 94ms. Found 1 repository interfaces. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:28:42  INFO - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$6742eb20] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:28:43  INFO - Tomcat initialized with port(s): 8083 (http) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:28:43  INFO - Initializing ProtocolHandler ["http-nio-8083"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:28:43  INFO - Starting service [Tomcat] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:28:43  INFO - Starting Servlet engine: [Apache Tomcat/9.0.14] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:28:43  INFO - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\environments\oracle\java\8\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files (x86)/Java/jre1.8.0_201/bin/client;C:/Program Files (x86)/Java/jre1.8.0_201/bin;C:/Program Files (x86)/Java/jre1.8.0_201/lib/i386;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\environments\oracle\db\10g\app\oracle\product\10.2.0\server\bin;C:\app\ext_lavergarav\product\12.1.0\dbhome_1\bin;C:\environments\oracle\db\12.1.0\dbhome_1\bin;C:\sybase\Shared\Sybase Central 4.3;C:\sybase\OCS-12_5\lib3p;C:\sybase\OCS-12_5\dll;C:\sybase\OCS-12_5\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Lenovo\Access Connections\;C:\Program Files\Lenovo\Fingerprint Manager Pro\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\SDL International\SDLX;C:\Program Files\MATLAB\R2016b\bin;C:\Users\ext_lavergarav\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\PuTTY\;C:\Program Files\Java\jdk1.8.0_192\bin;C:\Users\ext_lavergarav\.azure-kubectl;C:\Program Files\Git\cmd;C:\Program Files (x86)\Nmap;C:\Program Files\Docker Toolbox;C:\Users\ext_lavergarav\Desktop\sts-bundle\sts-3.9.3.RELEASE;;.] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:28:43  INFO - Initializing Spring embedded WebApplicationContext - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:28:43  INFO - Root WebApplicationContext: initialization completed in 3369 ms - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:28:49  INFO - Initializing DocumentClient with serviceEndpoint [https://tot-sche-invm-stock.documents.azure.com:443/], ConnectionPolicy [ConnectionPolicy [requestTimeout=60, mediaRequestTimeout=300, connectionMode=Gateway, mediaReadMode=Buffered, maxPoolSize=400, idleConnectionTimeout=60, userAgentSuffix=, retryOptions=com.microsoft.azure.documentdb.RetryOptions@62fdeb, enableEndpointDiscovery=true, preferredLocations=null]], ConsistencyLevel [null] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:28:57  INFO - Creating MessagingFactory to namespace 'sb://tot-corp-orion-int-qa.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:28:57  INFO - Creating messaging factory from namespace endpoint uri 'sb://tot-corp-orion-int-qa.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:28:57  INFO - Creating and starting reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:28:57  INFO - starting reactor instance. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:28:57  INFO - Started reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:28:57  INFO - Creating connection to host 'tot-corp-orion-int-qa.servicebus.windows.net:5671' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:28:59  INFO - MessagingFactory opened. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:28:59  INFO - Connection opened to host. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:28:59  INFO - Created MessagingFactory to namespace 'sb://tot-corp-orion-int-qa.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:28:59  INFO - Creating MessageSender to entity 'tot-corp-orion-stockevent-storechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:28:59  INFO - Creating CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:28:59  INFO - Creating core message sender to 'tot-corp-orion-stockevent-storechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:28:59  INFO - Opened requestresponselink to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:28:59  INFO - Created CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:28:59  INFO - Creating send link to 'tot-corp-orion-stockevent-storechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:28:59  INFO - Opened send link to 'tot-corp-orion-stockevent-storechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:28:59  INFO - Created MessageSender to entity 'tot-corp-orion-stockevent-storechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:28:59  INFO - Created topic client to connection string 'Endpoint=sb://tot-corp-orion-int-qa.servicebus.windows.net/;EntityPath=tot-corp-orion-stockevent-storechanges-topic-mid;' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:29:00  INFO - Exposing 2 endpoint(s) beneath base path '/actuator' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:29:01  INFO - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:29:01  INFO - Initializing ExecutorService 'applicationTaskExecutor' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:29:02  INFO - Context refreshed - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:29:02  INFO - Found 1 custom documentation plugin(s) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:29:02  INFO - Scanning for api listing references - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:29:02  INFO - Starting ProtocolHandler ["http-nio-8083"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:29:02  INFO - Tomcat started on port(s): 8083 (http) with context path '' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:29:02  INFO - Started StockCmdApplication in 22.917 seconds (JVM running for 24.605) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:38:20  INFO - Initializing Spring DispatcherServlet 'dispatcherServlet' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:38:20  INFO - Initializing Servlet 'dispatcherServlet' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:38:20  INFO - Completed initialization in 217 ms - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:38:21  INFO - PETottusPMM - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:38:21  INFO - Create Stock request. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:38:21  INFO - Stock Saved successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:38:21  INFO - Sending StockCreateEvent integration Event  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:38:21  INFO - Event published: {"sku":"04142454","store":123,"stockAvailable":100.0,"stockOnLine":90.0,"purchaseOrden":null,"transferOrden":90.0,"averageCost":15.5} - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:38:21  INFO - Stock Created successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:38:48  INFO - PETottusPMM - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:38:48  INFO - Create Stock request. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:38:48  INFO - Stock Saved successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:38:48  INFO - Sending StockCreateEvent integration Event  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:38:48  INFO - Event published: {"sku":"04142454","store":123,"stockAvailable":100.0,"stockOnLine":90.0,"purchaseOrden":90.0,"transferOrden":90.0,"averageCost":15.5} - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:38:48  INFO - Stock Created successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:48:48  WARN - Send link to 'tot-corp-orion-stockevent-storechanges-topic-mid' closed. Failing all pending send requests. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:53:48  WARN - Internal send link of requestresponselink to '$cbs' closed with error. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+com.microsoft.azure.servicebus.primitives.ServiceBusException: Error{condition=amqp:connection:forced, description='The connection was inactive for more than the allowed 300000 milliseconds and is closed by container 'LinkTracker'. TrackingId:387fafa82e0548a6b1d4357dfdb60931_G42, SystemTracker:gateway7, Timestamp:2019-03-14T14:53:48', info=null}
+	at com.microsoft.azure.servicebus.primitives.ExceptionUtil.toException(ExceptionUtil.java:113)
+	at com.microsoft.azure.servicebus.primitives.RequestResponseLink$InternalSender.onClose(RequestResponseLink.java:837)
+	at com.microsoft.azure.servicebus.amqp.BaseLinkHandler.processOnClose(BaseLinkHandler.java:68)
+	at com.microsoft.azure.servicebus.amqp.BaseLinkHandler.onLinkRemoteClose(BaseLinkHandler.java:42)
+	at org.apache.qpid.proton.engine.BaseHandler.handle(BaseHandler.java:176)
+	at org.apache.qpid.proton.engine.impl.EventImpl.dispatch(EventImpl.java:108)
+	at org.apache.qpid.proton.reactor.impl.ReactorImpl.dispatch(ReactorImpl.java:324)
+	at org.apache.qpid.proton.reactor.impl.ReactorImpl.process(ReactorImpl.java:291)
+	at com.microsoft.azure.servicebus.primitives.MessagingFactory$RunReactor.run(MessagingFactory.java:481)
+	at java.lang.Thread.run(Thread.java:748)
+2019-03-14 11:53:48  WARN - Completing all pending requests with exception in request response link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:53:48  WARN - Internal receive link of requestresponselink to '$cbs' closed with error. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+com.microsoft.azure.servicebus.primitives.ServiceBusException: Error{condition=amqp:connection:forced, description='The connection was inactive for more than the allowed 300000 milliseconds and is closed by container 'LinkTracker'. TrackingId:387fafa82e0548a6b1d4357dfdb60931_G42, SystemTracker:gateway7, Timestamp:2019-03-14T14:53:48', info=null}
+	at com.microsoft.azure.servicebus.primitives.ExceptionUtil.toException(ExceptionUtil.java:113)
+	at com.microsoft.azure.servicebus.primitives.RequestResponseLink$InternalReceiver.onClose(RequestResponseLink.java:630)
+	at com.microsoft.azure.servicebus.amqp.BaseLinkHandler.processOnClose(BaseLinkHandler.java:68)
+	at com.microsoft.azure.servicebus.amqp.BaseLinkHandler.onLinkRemoteClose(BaseLinkHandler.java:42)
+	at org.apache.qpid.proton.engine.BaseHandler.handle(BaseHandler.java:176)
+	at org.apache.qpid.proton.engine.impl.EventImpl.dispatch(EventImpl.java:108)
+	at org.apache.qpid.proton.reactor.impl.ReactorImpl.dispatch(ReactorImpl.java:324)
+	at org.apache.qpid.proton.reactor.impl.ReactorImpl.process(ReactorImpl.java:291)
+	at com.microsoft.azure.servicebus.primitives.MessagingFactory$RunReactor.run(MessagingFactory.java:481)
+	at java.lang.Thread.run(Thread.java:748)
+2019-03-14 11:53:48  WARN - Completing all pending requests with exception in request response link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:53:48 ERROR - Connection error. 'Error{condition=amqp:connection:forced, description='The connection was inactive for more than the allowed 300000 milliseconds and is closed by container 'LinkTracker'. TrackingId:387fafa82e0548a6b1d4357dfdb60931_G42, SystemTracker:gateway7, Timestamp:2019-03-14T14:53:48', info=null}' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 11:53:48  INFO - Closing connection to host - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 12:26:31  INFO - Application shutdown requested. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 12:26:31  INFO - Shutting down ExecutorService 'applicationTaskExecutor' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 12:26:31  INFO - Closing DocumentClient - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 12:26:31  WARN - Preferred location background task was interrupted - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:20:14  INFO - Starting StockCmdApplication on MOEXT_LAVER with PID 27672 (C:\addesa\API\Peru\Tottus\Orion\Desarrollo\stock\cmd\stock-cmd\bin\main started by ext_lavergarav in C:\addesa\API\Peru\Tottus\Orion\Desarrollo\stock\cmd\stock-cmd) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:20:14  INFO - No active profile set, falling back to default profiles: default - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:20:16  INFO - Bootstrapping Spring Data repositories in DEFAULT mode. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:20:16  INFO - Finished Spring Data repository scanning in 82ms. Found 1 repository interfaces. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:20:17  INFO - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$6ffc87ff] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:20:17  INFO - Tomcat initialized with port(s): 8083 (http) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:20:17  INFO - Initializing ProtocolHandler ["http-nio-8083"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:20:17  INFO - Starting service [Tomcat] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:20:17  INFO - Starting Servlet engine: [Apache Tomcat/9.0.14] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:20:17  INFO - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\environments\oracle\java\8\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files (x86)/Java/jre1.8.0_201/bin/client;C:/Program Files (x86)/Java/jre1.8.0_201/bin;C:/Program Files (x86)/Java/jre1.8.0_201/lib/i386;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\environments\oracle\db\10g\app\oracle\product\10.2.0\server\bin;C:\app\ext_lavergarav\product\12.1.0\dbhome_1\bin;C:\environments\oracle\db\12.1.0\dbhome_1\bin;C:\sybase\Shared\Sybase Central 4.3;C:\sybase\OCS-12_5\lib3p;C:\sybase\OCS-12_5\dll;C:\sybase\OCS-12_5\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Lenovo\Access Connections\;C:\Program Files\Lenovo\Fingerprint Manager Pro\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\SDL International\SDLX;C:\Program Files\MATLAB\R2016b\bin;C:\Users\ext_lavergarav\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\PuTTY\;C:\Program Files\Java\jdk1.8.0_192\bin;C:\Users\ext_lavergarav\.azure-kubectl;C:\Program Files\Git\cmd;C:\Program Files (x86)\Nmap;C:\Program Files\Docker Toolbox;C:\Users\ext_lavergarav\Desktop\sts-bundle\sts-3.9.3.RELEASE;;.] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:20:18  INFO - Initializing Spring embedded WebApplicationContext - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:20:18  INFO - Root WebApplicationContext: initialization completed in 3437 ms - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:20:30  INFO - Initializing DocumentClient with serviceEndpoint [https://tot-sche-invm-stock.documents.azure.com:443/], ConnectionPolicy [ConnectionPolicy [requestTimeout=60, mediaRequestTimeout=300, connectionMode=Gateway, mediaReadMode=Buffered, maxPoolSize=400, idleConnectionTimeout=60, userAgentSuffix=, retryOptions=com.microsoft.azure.documentdb.RetryOptions@1a1308d, enableEndpointDiscovery=true, preferredLocations=null]], ConsistencyLevel [null] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:20:38  INFO - Creating MessagingFactory to namespace 'sb://tot-corp-orion-int-qa.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:20:38  INFO - Creating messaging factory from namespace endpoint uri 'sb://tot-corp-orion-int-qa.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:20:38  INFO - Creating and starting reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:20:38  INFO - Started reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:20:38  INFO - starting reactor instance. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:20:38  INFO - Creating connection to host 'tot-corp-orion-int-qa.servicebus.windows.net:5671' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:20:39  INFO - MessagingFactory opened. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:20:39  INFO - Connection opened to host. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:20:39  INFO - Created MessagingFactory to namespace 'sb://tot-corp-orion-int-qa.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:20:39  INFO - Creating MessageSender to entity 'tot-corp-orion-stockevent-storechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:20:39  INFO - Creating CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:20:39  INFO - Creating core message sender to 'tot-corp-orion-stockevent-storechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:20:39  INFO - Opened requestresponselink to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:20:39  INFO - Created CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:20:40  INFO - Creating send link to 'tot-corp-orion-stockevent-storechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:20:40  INFO - Opened send link to 'tot-corp-orion-stockevent-storechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:20:40  INFO - Created MessageSender to entity 'tot-corp-orion-stockevent-storechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:20:40  INFO - Created topic client to connection string 'Endpoint=sb://tot-corp-orion-int-qa.servicebus.windows.net/;EntityPath=tot-corp-orion-stockevent-storechanges-topic-mid;' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:20:41  INFO - Exposing 2 endpoint(s) beneath base path '/actuator' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:20:42  INFO - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:20:42  INFO - Initializing ExecutorService 'applicationTaskExecutor' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:20:43  INFO - Context refreshed - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:20:43  INFO - Found 1 custom documentation plugin(s) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:20:43  INFO - Scanning for api listing references - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:20:43  INFO - Starting ProtocolHandler ["http-nio-8083"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:20:43 ERROR - Failed to start component [Connector[HTTP/1.1-8083]] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1004)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:226)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:259)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:311)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:164)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at rtl.tot.corp.sche.invm.cmd.stockcmd.StockCmdApplication.main(StockCmdApplication.java:10)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:236)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1085)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1171)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:568)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1001)
+	... 14 common frames omitted
+2019-03-14 16:20:43  INFO - Pausing ProtocolHandler ["http-nio-8083"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:20:43  INFO - Stopping service [Tomcat] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:20:43  INFO - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:20:43  INFO - Stopping ProtocolHandler ["http-nio-8083"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:20:43  INFO - Destroying ProtocolHandler ["http-nio-8083"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:20:43  INFO - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:20:43 ERROR - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8083 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8083, or configure this application to listen on another port.
+ - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:20:43  INFO - Shutting down ExecutorService 'applicationTaskExecutor' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:20:43  INFO - Closing DocumentClient - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:20:43  WARN - Preferred location background task was interrupted - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:22:15  INFO - Starting StockCmdApplication on MOEXT_LAVER with PID 26188 (C:\addesa\API\Peru\Tottus\Orion\Desarrollo\stock\cmd\stock-cmd\bin\main started by ext_lavergarav in C:\addesa\API\Peru\Tottus\Orion\Desarrollo\stock\cmd\stock-cmd) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:22:15  INFO - No active profile set, falling back to default profiles: default - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:22:17  INFO - Bootstrapping Spring Data repositories in DEFAULT mode. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:22:17  INFO - Finished Spring Data repository scanning in 94ms. Found 1 repository interfaces. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:22:17  INFO - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$6742eb20] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:22:18  INFO - Tomcat initialized with port(s): 8082 (http) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:22:18  INFO - Initializing ProtocolHandler ["http-nio-8082"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:22:18  INFO - Starting service [Tomcat] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:22:18  INFO - Starting Servlet engine: [Apache Tomcat/9.0.14] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:22:18  INFO - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\environments\oracle\java\8\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files (x86)/Java/jre1.8.0_201/bin/client;C:/Program Files (x86)/Java/jre1.8.0_201/bin;C:/Program Files (x86)/Java/jre1.8.0_201/lib/i386;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\environments\oracle\db\10g\app\oracle\product\10.2.0\server\bin;C:\app\ext_lavergarav\product\12.1.0\dbhome_1\bin;C:\environments\oracle\db\12.1.0\dbhome_1\bin;C:\sybase\Shared\Sybase Central 4.3;C:\sybase\OCS-12_5\lib3p;C:\sybase\OCS-12_5\dll;C:\sybase\OCS-12_5\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Lenovo\Access Connections\;C:\Program Files\Lenovo\Fingerprint Manager Pro\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\SDL International\SDLX;C:\Program Files\MATLAB\R2016b\bin;C:\Users\ext_lavergarav\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\PuTTY\;C:\Program Files\Java\jdk1.8.0_192\bin;C:\Users\ext_lavergarav\.azure-kubectl;C:\Program Files\Git\cmd;C:\Program Files (x86)\Nmap;C:\Program Files\Docker Toolbox;C:\Users\ext_lavergarav\Desktop\sts-bundle\sts-3.9.3.RELEASE;;.] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:22:18  INFO - Initializing Spring embedded WebApplicationContext - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:22:18  INFO - Root WebApplicationContext: initialization completed in 3653 ms - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:22:24  INFO - Initializing DocumentClient with serviceEndpoint [https://tot-sche-invm-stock.documents.azure.com:443/], ConnectionPolicy [ConnectionPolicy [requestTimeout=60, mediaRequestTimeout=300, connectionMode=Gateway, mediaReadMode=Buffered, maxPoolSize=400, idleConnectionTimeout=60, userAgentSuffix=, retryOptions=com.microsoft.azure.documentdb.RetryOptions@182184b, enableEndpointDiscovery=true, preferredLocations=null]], ConsistencyLevel [null] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:22:32  INFO - Creating MessagingFactory to namespace 'sb://tot-corp-orion-int-qa.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:22:32  INFO - Creating messaging factory from namespace endpoint uri 'sb://tot-corp-orion-int-qa.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:22:32  INFO - Creating and starting reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:22:32  INFO - Started reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:22:32  INFO - starting reactor instance. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:22:32  INFO - Creating connection to host 'tot-corp-orion-int-qa.servicebus.windows.net:5671' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:22:33  INFO - MessagingFactory opened. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:22:33  INFO - Connection opened to host. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:22:33  INFO - Created MessagingFactory to namespace 'sb://tot-corp-orion-int-qa.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:22:33  INFO - Creating MessageSender to entity 'tot-corp-orion-stockevent-storechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:22:33  INFO - Creating CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:22:33  INFO - Creating core message sender to 'tot-corp-orion-stockevent-storechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:22:33  INFO - Opened requestresponselink to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:22:33  INFO - Created CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:22:34  INFO - Creating send link to 'tot-corp-orion-stockevent-storechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:22:34  INFO - Opened send link to 'tot-corp-orion-stockevent-storechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:22:34  INFO - Created MessageSender to entity 'tot-corp-orion-stockevent-storechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:22:34  INFO - Created topic client to connection string 'Endpoint=sb://tot-corp-orion-int-qa.servicebus.windows.net/;EntityPath=tot-corp-orion-stockevent-storechanges-topic-mid;' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:22:35  INFO - Exposing 2 endpoint(s) beneath base path '/actuator' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:22:35  INFO - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:22:36  INFO - Initializing ExecutorService 'applicationTaskExecutor' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:22:36  INFO - Context refreshed - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:22:36  INFO - Found 1 custom documentation plugin(s) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:22:36  INFO - Scanning for api listing references - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:22:37  INFO - Starting ProtocolHandler ["http-nio-8082"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:22:37  INFO - Tomcat started on port(s): 8082 (http) with context path '' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:22:37  INFO - Started StockCmdApplication in 22.442 seconds (JVM running for 24.123) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:23:05  INFO - Initializing Spring DispatcherServlet 'dispatcherServlet' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:23:05  INFO - Initializing Servlet 'dispatcherServlet' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:23:05  INFO - Completed initialization in 37 ms - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:23:06  INFO - PETottusPMM - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:23:06  INFO - Create Stock request. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:23:06  INFO - Stock Saved successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:23:06  INFO - Sending StockCreateEvent integration Event  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:23:06  INFO - Event published: {"sku":"04142454","store":123,"stockAvailable":100.0,"stockOnLine":90.0,"purchaseOrden":90.0,"transferOrden":90.0,"averageCost":15.5} - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:23:06  INFO - Stock Created successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:33:06  WARN - Send link to 'tot-corp-orion-stockevent-storechanges-topic-mid' closed. Failing all pending send requests. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:38:06  WARN - Internal send link of requestresponselink to '$cbs' closed with error. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+com.microsoft.azure.servicebus.primitives.ServiceBusException: Error{condition=amqp:connection:forced, description='The connection was inactive for more than the allowed 300000 milliseconds and is closed by container 'LinkTracker'. TrackingId:9493cd1dfb88454abbf32f672da639e8_G46, SystemTracker:gateway7, Timestamp:2019-03-14T19:38:06', info=null}
+	at com.microsoft.azure.servicebus.primitives.ExceptionUtil.toException(ExceptionUtil.java:113)
+	at com.microsoft.azure.servicebus.primitives.RequestResponseLink$InternalSender.onClose(RequestResponseLink.java:837)
+	at com.microsoft.azure.servicebus.amqp.BaseLinkHandler.processOnClose(BaseLinkHandler.java:68)
+	at com.microsoft.azure.servicebus.amqp.BaseLinkHandler.onLinkRemoteClose(BaseLinkHandler.java:42)
+	at org.apache.qpid.proton.engine.BaseHandler.handle(BaseHandler.java:176)
+	at org.apache.qpid.proton.engine.impl.EventImpl.dispatch(EventImpl.java:108)
+	at org.apache.qpid.proton.reactor.impl.ReactorImpl.dispatch(ReactorImpl.java:324)
+	at org.apache.qpid.proton.reactor.impl.ReactorImpl.process(ReactorImpl.java:291)
+	at com.microsoft.azure.servicebus.primitives.MessagingFactory$RunReactor.run(MessagingFactory.java:481)
+	at java.lang.Thread.run(Thread.java:748)
+2019-03-14 16:38:06  WARN - Completing all pending requests with exception in request response link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:38:06  WARN - Internal receive link of requestresponselink to '$cbs' closed with error. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+com.microsoft.azure.servicebus.primitives.ServiceBusException: Error{condition=amqp:connection:forced, description='The connection was inactive for more than the allowed 300000 milliseconds and is closed by container 'LinkTracker'. TrackingId:9493cd1dfb88454abbf32f672da639e8_G46, SystemTracker:gateway7, Timestamp:2019-03-14T19:38:06', info=null}
+	at com.microsoft.azure.servicebus.primitives.ExceptionUtil.toException(ExceptionUtil.java:113)
+	at com.microsoft.azure.servicebus.primitives.RequestResponseLink$InternalReceiver.onClose(RequestResponseLink.java:630)
+	at com.microsoft.azure.servicebus.amqp.BaseLinkHandler.processOnClose(BaseLinkHandler.java:68)
+	at com.microsoft.azure.servicebus.amqp.BaseLinkHandler.onLinkRemoteClose(BaseLinkHandler.java:42)
+	at org.apache.qpid.proton.engine.BaseHandler.handle(BaseHandler.java:176)
+	at org.apache.qpid.proton.engine.impl.EventImpl.dispatch(EventImpl.java:108)
+	at org.apache.qpid.proton.reactor.impl.ReactorImpl.dispatch(ReactorImpl.java:324)
+	at org.apache.qpid.proton.reactor.impl.ReactorImpl.process(ReactorImpl.java:291)
+	at com.microsoft.azure.servicebus.primitives.MessagingFactory$RunReactor.run(MessagingFactory.java:481)
+	at java.lang.Thread.run(Thread.java:748)
+2019-03-14 16:38:06  WARN - Completing all pending requests with exception in request response link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:38:06 ERROR - Connection error. 'Error{condition=amqp:connection:forced, description='The connection was inactive for more than the allowed 300000 milliseconds and is closed by container 'LinkTracker'. TrackingId:9493cd1dfb88454abbf32f672da639e8_G46, SystemTracker:gateway7, Timestamp:2019-03-14T19:38:06', info=null}' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 16:38:06  INFO - Closing connection to host - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 17:04:33  INFO - PETottusPMM - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 17:04:33  INFO - Create Stock request. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 17:04:33  INFO - Stock Saved successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 17:04:33  INFO - Sending StockCreateEvent integration Event  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 17:04:33  INFO - Recreating send link to 'tot-corp-orion-stockevent-storechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 17:04:33  INFO - RequestResponseLink - recreating internal send and receive links to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 17:04:33  INFO - Creating connection to host 'tot-corp-orion-int-qa.servicebus.windows.net:5671' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 17:04:34  INFO - Connection opened to host. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 17:04:34  INFO - Recreated internal links to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 17:04:34  INFO - Creating send link to 'tot-corp-orion-stockevent-storechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 17:04:35  INFO - Event published: {"sku":"04142454","store":123,"stockAvailable":100.0,"stockOnLine":90.0,"purchaseOrden":90.0,"transferOrden":90.0,"averageCost":15.5} - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 17:04:35  INFO - Stock Created successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 17:14:35  WARN - Send link to 'tot-corp-orion-stockevent-storechanges-topic-mid' closed. Failing all pending send requests. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 17:17:39  INFO - PETottusPMM - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 17:17:39  INFO - Create Stock request. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 17:17:39  INFO - Stock Saved successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 17:17:39  INFO - Sending StockCreateEvent integration Event  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 17:17:39  INFO - Recreating send link to 'tot-corp-orion-stockevent-storechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 17:17:39  INFO - Creating send link to 'tot-corp-orion-stockevent-storechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 17:17:39  INFO - Event published: {"sku":"04142454","store":123,"stockAvailable":100.0,"stockOnLine":90.0,"purchaseOrden":90.0,"transferOrden":90.0,"averageCost":15.5} - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 17:17:39  INFO - Stock Created successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 17:17:52  INFO - PETottusPMM - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 17:17:52  INFO - Create Stock request. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 17:17:52  INFO - Stock Saved successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 17:17:52  INFO - Sending StockCreateEvent integration Event  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 17:17:53  INFO - Event published: {"sku":"04142454","store":123,"stockAvailable":100.0,"stockOnLine":90.0,"purchaseOrden":90.0,"transferOrden":90.0,"averageCost":15.5} - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 17:17:53  INFO - Stock Created successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 17:27:53  WARN - Send link to 'tot-corp-orion-stockevent-storechanges-topic-mid' closed. Failing all pending send requests. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 17:32:53  WARN - Internal send link of requestresponselink to '$cbs' closed with error. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+com.microsoft.azure.servicebus.primitives.ServiceBusException: Error{condition=amqp:connection:forced, description='The connection was inactive for more than the allowed 300000 milliseconds and is closed by container 'LinkTracker'. TrackingId:6f70644c3d6b4e6f899582cd34d13768_G48, SystemTracker:gateway7, Timestamp:2019-03-14T20:32:53', info=null}
+	at com.microsoft.azure.servicebus.primitives.ExceptionUtil.toException(ExceptionUtil.java:113)
+	at com.microsoft.azure.servicebus.primitives.RequestResponseLink$InternalSender.onClose(RequestResponseLink.java:837)
+	at com.microsoft.azure.servicebus.amqp.BaseLinkHandler.processOnClose(BaseLinkHandler.java:68)
+	at com.microsoft.azure.servicebus.amqp.BaseLinkHandler.onLinkRemoteClose(BaseLinkHandler.java:42)
+	at org.apache.qpid.proton.engine.BaseHandler.handle(BaseHandler.java:176)
+	at org.apache.qpid.proton.engine.impl.EventImpl.dispatch(EventImpl.java:108)
+	at org.apache.qpid.proton.reactor.impl.ReactorImpl.dispatch(ReactorImpl.java:324)
+	at org.apache.qpid.proton.reactor.impl.ReactorImpl.process(ReactorImpl.java:291)
+	at com.microsoft.azure.servicebus.primitives.MessagingFactory$RunReactor.run(MessagingFactory.java:481)
+	at java.lang.Thread.run(Thread.java:748)
+2019-03-14 17:32:53  WARN - Completing all pending requests with exception in request response link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 17:32:53  WARN - Internal receive link of requestresponselink to '$cbs' closed with error. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+com.microsoft.azure.servicebus.primitives.ServiceBusException: Error{condition=amqp:connection:forced, description='The connection was inactive for more than the allowed 300000 milliseconds and is closed by container 'LinkTracker'. TrackingId:6f70644c3d6b4e6f899582cd34d13768_G48, SystemTracker:gateway7, Timestamp:2019-03-14T20:32:53', info=null}
+	at com.microsoft.azure.servicebus.primitives.ExceptionUtil.toException(ExceptionUtil.java:113)
+	at com.microsoft.azure.servicebus.primitives.RequestResponseLink$InternalReceiver.onClose(RequestResponseLink.java:630)
+	at com.microsoft.azure.servicebus.amqp.BaseLinkHandler.processOnClose(BaseLinkHandler.java:68)
+	at com.microsoft.azure.servicebus.amqp.BaseLinkHandler.onLinkRemoteClose(BaseLinkHandler.java:42)
+	at org.apache.qpid.proton.engine.BaseHandler.handle(BaseHandler.java:176)
+	at org.apache.qpid.proton.engine.impl.EventImpl.dispatch(EventImpl.java:108)
+	at org.apache.qpid.proton.reactor.impl.ReactorImpl.dispatch(ReactorImpl.java:324)
+	at org.apache.qpid.proton.reactor.impl.ReactorImpl.process(ReactorImpl.java:291)
+	at com.microsoft.azure.servicebus.primitives.MessagingFactory$RunReactor.run(MessagingFactory.java:481)
+	at java.lang.Thread.run(Thread.java:748)
+2019-03-14 17:32:53  WARN - Completing all pending requests with exception in request response link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 17:32:53 ERROR - Connection error. 'Error{condition=amqp:connection:forced, description='The connection was inactive for more than the allowed 300000 milliseconds and is closed by container 'LinkTracker'. TrackingId:6f70644c3d6b4e6f899582cd34d13768_G48, SystemTracker:gateway7, Timestamp:2019-03-14T20:32:53', info=null}' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 17:32:53  INFO - Closing connection to host - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 17:45:25  INFO - PETottusPMM - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 17:45:25  INFO - Create Stock request. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 17:45:25  INFO - Stock Saved successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 17:45:25  INFO - Sending StockCreateEvent integration Event  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 17:45:25  INFO - Recreating send link to 'tot-corp-orion-stockevent-storechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 17:45:25  INFO - RequestResponseLink - recreating internal send and receive links to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 17:45:25  INFO - Creating connection to host 'tot-corp-orion-int-qa.servicebus.windows.net:5671' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 17:45:26  INFO - Connection opened to host. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 17:45:26  INFO - Recreated internal links to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 17:45:26  INFO - Creating send link to 'tot-corp-orion-stockevent-storechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 17:45:27  INFO - Event published: {"sku":"04142454","store":123,"stockAvailable":100.0,"stockOnLine":90.0,"purchaseOrden":90.0,"transferOrden":90.0,"averageCost":15.5} - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 17:45:27  INFO - Stock Created successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 17:49:45  WARN - Connection.onTransportError: hostname:tot-corp-orion-int-qa.servicebus.windows.net:5671, error:Se ha forzado la interrupción de una conexión existente por el host remoto - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 17:49:45 ERROR - Connection error. 'Error{condition=proton:io, description='Se ha forzado la interrupción de una conexión existente por el host remoto', info=null}' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 17:49:45  INFO - Closing connection to host - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 17:49:45  WARN - Internal send link of requestresponselink to '$cbs' closed with error. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+com.microsoft.azure.servicebus.primitives.ServiceBusException: Error{condition=proton:io, description='Se ha forzado la interrupción de una conexión existente por el host remoto', info=null}
+	at com.microsoft.azure.servicebus.primitives.ExceptionUtil.toException(ExceptionUtil.java:113)
+	at com.microsoft.azure.servicebus.primitives.RequestResponseLink$InternalSender.onClose(RequestResponseLink.java:837)
+	at com.microsoft.azure.servicebus.amqp.BaseLinkHandler.processOnClose(BaseLinkHandler.java:68)
+	at com.microsoft.azure.servicebus.primitives.MessagingFactory.closeConnection(MessagingFactory.java:373)
+	at com.microsoft.azure.servicebus.primitives.MessagingFactory.onConnectionError(MessagingFactory.java:298)
+	at com.microsoft.azure.servicebus.amqp.ConnectionHandler.onTransportError(ConnectionHandler.java:84)
+	at org.apache.qpid.proton.engine.BaseHandler.handle(BaseHandler.java:191)
+	at org.apache.qpid.proton.engine.impl.EventImpl.dispatch(EventImpl.java:108)
+	at org.apache.qpid.proton.reactor.impl.ReactorImpl.dispatch(ReactorImpl.java:324)
+	at org.apache.qpid.proton.reactor.impl.ReactorImpl.process(ReactorImpl.java:291)
+	at com.microsoft.azure.servicebus.primitives.MessagingFactory$RunReactor.run(MessagingFactory.java:481)
+	at java.lang.Thread.run(Thread.java:748)
+2019-03-14 17:49:45  WARN - Completing all pending requests with exception in request response link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 17:49:45  WARN - Internal receive link of requestresponselink to '$cbs' closed with error. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+com.microsoft.azure.servicebus.primitives.ServiceBusException: Error{condition=proton:io, description='Se ha forzado la interrupción de una conexión existente por el host remoto', info=null}
+	at com.microsoft.azure.servicebus.primitives.ExceptionUtil.toException(ExceptionUtil.java:113)
+	at com.microsoft.azure.servicebus.primitives.RequestResponseLink$InternalReceiver.onClose(RequestResponseLink.java:630)
+	at com.microsoft.azure.servicebus.amqp.BaseLinkHandler.processOnClose(BaseLinkHandler.java:68)
+	at com.microsoft.azure.servicebus.primitives.MessagingFactory.closeConnection(MessagingFactory.java:373)
+	at com.microsoft.azure.servicebus.primitives.MessagingFactory.onConnectionError(MessagingFactory.java:298)
+	at com.microsoft.azure.servicebus.amqp.ConnectionHandler.onTransportError(ConnectionHandler.java:84)
+	at org.apache.qpid.proton.engine.BaseHandler.handle(BaseHandler.java:191)
+	at org.apache.qpid.proton.engine.impl.EventImpl.dispatch(EventImpl.java:108)
+	at org.apache.qpid.proton.reactor.impl.ReactorImpl.dispatch(ReactorImpl.java:324)
+	at org.apache.qpid.proton.reactor.impl.ReactorImpl.process(ReactorImpl.java:291)
+	at com.microsoft.azure.servicebus.primitives.MessagingFactory$RunReactor.run(MessagingFactory.java:481)
+	at java.lang.Thread.run(Thread.java:748)
+2019-03-14 17:49:45  WARN - Completing all pending requests with exception in request response link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 23:59:03  INFO - PETottusPMM - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 23:59:03  INFO - Create Stock request. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 23:59:03  INFO - Stock Saved successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 23:59:03  INFO - Sending StockCreateEvent integration Event  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 23:59:03  INFO - Recreating send link to 'tot-corp-orion-stockevent-storechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 23:59:03  INFO - RequestResponseLink - recreating internal send and receive links to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 23:59:03  INFO - Creating connection to host 'tot-corp-orion-int-qa.servicebus.windows.net:5671' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 23:59:04  INFO - Connection opened to host. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 23:59:04  INFO - Recreated internal links to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 23:59:04  INFO - Creating send link to 'tot-corp-orion-stockevent-storechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 23:59:05  INFO - Event published: {"sku":"04142454","store":123,"stockAvailable":100.0,"stockOnLine":90.0,"purchaseOrden":90.0,"transferOrden":90.0,"averageCost":15.5} - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-14 23:59:05  INFO - Stock Created successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 

@@ -1,0 +1,51 @@
+2019-03-15 00:06:13  INFO - PETottusPMM - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-15 00:06:13  INFO - Create Stock request. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-15 00:06:13  INFO - Stock Saved successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-15 00:06:13  INFO - Sending StockCreateEvent integration Event  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-15 00:06:14  INFO - Event published: {"sku":"04142454","store":123,"stockAvailable":100.0,"stockOnLine":90.0,"purchaseOrden":90.0,"transferOrden":90.0,"averageCost":15.5} - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-15 00:06:14  INFO - Stock Created successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-15 00:11:33  INFO - PETottusPMM - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-15 00:11:33  INFO - Create Stock request. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-15 00:11:33  INFO - Stock Saved successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-15 00:11:33  INFO - Sending StockCreateEvent integration Event  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-15 00:11:33  INFO - Event published: {"sku":"04142454","store":123,"stockAvailable":100.0,"stockOnLine":90.0,"purchaseOrden":90.0,"transferOrden":90.0,"averageCost":15.5} - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-15 00:11:33  INFO - Stock Created successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-15 00:16:35  INFO - PETottusPMM - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-15 00:16:35  INFO - Create Stock request. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-15 00:16:35  INFO - Stock Saved successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-15 00:16:35  INFO - Sending StockCreateEvent integration Event  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-15 00:16:36  INFO - Event published: {"sku":"04142454","store":123,"stockAvailable":100.0,"stockOnLine":90.0,"purchaseOrden":90.0,"transferOrden":90.0,"averageCost":15.5} - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-15 00:16:36  INFO - Stock Created successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-15 00:26:36  WARN - Send link to 'tot-corp-orion-stockevent-storechanges-topic-mid' closed. Failing all pending send requests. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-15 00:31:36  WARN - Internal send link of requestresponselink to '$cbs' closed with error. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+com.microsoft.azure.servicebus.primitives.ServiceBusException: Error{condition=amqp:connection:forced, description='The connection was inactive for more than the allowed 300000 milliseconds and is closed by container 'LinkTracker'. TrackingId:a4776cf3bbe44d82b42ae3a6c883ea77_G29, SystemTracker:gateway7, Timestamp:2019-03-15T03:31:35', info=null}
+	at com.microsoft.azure.servicebus.primitives.ExceptionUtil.toException(ExceptionUtil.java:113)
+	at com.microsoft.azure.servicebus.primitives.RequestResponseLink$InternalSender.onClose(RequestResponseLink.java:837)
+	at com.microsoft.azure.servicebus.amqp.BaseLinkHandler.processOnClose(BaseLinkHandler.java:68)
+	at com.microsoft.azure.servicebus.amqp.BaseLinkHandler.onLinkRemoteClose(BaseLinkHandler.java:42)
+	at org.apache.qpid.proton.engine.BaseHandler.handle(BaseHandler.java:176)
+	at org.apache.qpid.proton.engine.impl.EventImpl.dispatch(EventImpl.java:108)
+	at org.apache.qpid.proton.reactor.impl.ReactorImpl.dispatch(ReactorImpl.java:324)
+	at org.apache.qpid.proton.reactor.impl.ReactorImpl.process(ReactorImpl.java:291)
+	at com.microsoft.azure.servicebus.primitives.MessagingFactory$RunReactor.run(MessagingFactory.java:481)
+	at java.lang.Thread.run(Thread.java:748)
+2019-03-15 00:31:36  WARN - Completing all pending requests with exception in request response link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-15 00:31:36  WARN - Internal receive link of requestresponselink to '$cbs' closed with error. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+com.microsoft.azure.servicebus.primitives.ServiceBusException: Error{condition=amqp:connection:forced, description='The connection was inactive for more than the allowed 300000 milliseconds and is closed by container 'LinkTracker'. TrackingId:a4776cf3bbe44d82b42ae3a6c883ea77_G29, SystemTracker:gateway7, Timestamp:2019-03-15T03:31:35', info=null}
+	at com.microsoft.azure.servicebus.primitives.ExceptionUtil.toException(ExceptionUtil.java:113)
+	at com.microsoft.azure.servicebus.primitives.RequestResponseLink$InternalReceiver.onClose(RequestResponseLink.java:630)
+	at com.microsoft.azure.servicebus.amqp.BaseLinkHandler.processOnClose(BaseLinkHandler.java:68)
+	at com.microsoft.azure.servicebus.amqp.BaseLinkHandler.onLinkRemoteClose(BaseLinkHandler.java:42)
+	at org.apache.qpid.proton.engine.BaseHandler.handle(BaseHandler.java:176)
+	at org.apache.qpid.proton.engine.impl.EventImpl.dispatch(EventImpl.java:108)
+	at org.apache.qpid.proton.reactor.impl.ReactorImpl.dispatch(ReactorImpl.java:324)
+	at org.apache.qpid.proton.reactor.impl.ReactorImpl.process(ReactorImpl.java:291)
+	at com.microsoft.azure.servicebus.primitives.MessagingFactory$RunReactor.run(MessagingFactory.java:481)
+	at java.lang.Thread.run(Thread.java:748)
+2019-03-15 00:31:36  WARN - Completing all pending requests with exception in request response link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-15 00:31:36 ERROR - Connection error. 'Error{condition=amqp:connection:forced, description='The connection was inactive for more than the allowed 300000 milliseconds and is closed by container 'LinkTracker'. TrackingId:a4776cf3bbe44d82b42ae3a6c883ea77_G29, SystemTracker:gateway7, Timestamp:2019-03-15T03:31:35', info=null}' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-15 00:31:36  INFO - Closing connection to host - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-15 11:30:28  INFO - Application shutdown requested. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-15 11:30:29  INFO - Shutting down ExecutorService 'applicationTaskExecutor' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-15 11:30:29  INFO - Closing DocumentClient - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-03-15 11:30:29  WARN - Preferred location background task was interrupted - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 

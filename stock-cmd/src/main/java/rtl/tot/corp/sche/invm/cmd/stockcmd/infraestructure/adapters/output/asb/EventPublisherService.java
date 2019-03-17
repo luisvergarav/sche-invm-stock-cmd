@@ -5,9 +5,6 @@ import corp.falabella.arq.event.EventBuilder;
 import corp.falabella.arq.event.provider.EventPublisher;
 import corp.falabella.arq.infra.exception.InvalidParameterException;
 import lombok.extern.slf4j.Slf4j;
-import rtl.tot.corp.sche.invm.cmd.stockcmd.domain.events.EventDomain;
-import rtl.tot.corp.sche.invm.cmd.stockcmd.domain.events.EventProperties;
-import rtl.tot.corp.sche.invm.cmd.stockcmd.domain.events.EventType;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

@@ -14,10 +14,10 @@ import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
 import rtl.tot.corp.sche.invm.cmd.stockcmd.application.adapters.CreateStockCommandImpl;
 import rtl.tot.corp.sche.invm.cmd.stockcmd.application.adapters.DecoratorCreateStockCommandBus;
-import rtl.tot.corp.sche.invm.cmd.stockcmd.domain.events.EventProperties;
 import rtl.tot.corp.sche.invm.cmd.stockcmd.infraestructure.adapters.http.rest.constants.RestConstants;
 import rtl.tot.corp.sche.invm.cmd.stockcmd.infraestructure.adapters.http.rest.domain.APIResponse;
 import rtl.tot.corp.sche.invm.cmd.stockcmd.infraestructure.adapters.http.rest.domain.Stock;
+import rtl.tot.corp.sche.invm.cmd.stockcmd.infraestructure.adapters.output.asb.EventProperties;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 import javax.servlet.http.HttpServletRequest;

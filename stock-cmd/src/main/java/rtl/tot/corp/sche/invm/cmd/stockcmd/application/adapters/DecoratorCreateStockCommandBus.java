@@ -1,14 +1,15 @@
 package rtl.tot.corp.sche.invm.cmd.stockcmd.application.adapters;
 
 import org.springframework.beans.factory.annotation.Autowired;
-
+import org.springframework.stereotype.Component;
 
 import lombok.extern.slf4j.Slf4j;
-import rtl.tot.corp.sche.invm.cmd.stockcmd.domain.events.EventType;
-import rtl.tot.corp.sche.invm.cmd.stockcmd.domain.events.StockCreatedIntegrationEvent;
 import rtl.tot.corp.sche.invm.cmd.stockcmd.domain.ports.CommandBus;
 import rtl.tot.corp.sche.invm.cmd.stockcmd.infraestructure.adapters.output.asb.EventPublisherService;
+import rtl.tot.corp.sche.invm.cmd.stockcmd.infraestructure.adapters.output.asb.EventType;
+import rtl.tot.corp.sche.invm.cmd.stockcmd.infraestructure.adapters.output.asb.StockCreatedIntegrationEvent;
 @Slf4j
+@Component
 public class DecoratorCreateStockCommandBus implements CommandBus<CreateStockCommandImpl> {
 	
 
