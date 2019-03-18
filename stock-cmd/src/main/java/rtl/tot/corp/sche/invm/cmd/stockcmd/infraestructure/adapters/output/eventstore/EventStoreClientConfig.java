@@ -14,7 +14,8 @@ public class EventStoreClientConfig {
     @Bean
     @Primary
     public StockClient boardClient(
-            @Qualifier( "io.pivotal.dmfrey.eventStoreDemo.domain.client.eventStore.config.RestConfig$EventStoreClient" ) final RestConfig.EventStoreClient eventStoreClient
+ 
+            final RestConfig.EventStoreClient eventStoreClient
     ) {
 
         return new EventStoreStockClient( eventStoreClient );

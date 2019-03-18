@@ -58,7 +58,7 @@ public class StockCreatedEvent extends DomainEvent {
 
 
 	@Override
-    @JsonIgnore
+
     public String eventType() {
 
         return this.getClass().getSimpleName();
