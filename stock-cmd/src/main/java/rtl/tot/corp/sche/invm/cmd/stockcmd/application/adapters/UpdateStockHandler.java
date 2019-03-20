@@ -7,19 +7,19 @@ import org.springframework.stereotype.Component;
 import rtl.tot.corp.sche.invm.cmd.stockcmd.domain.ports.Handler;
 
 @Component
-public class CreateStockHandler implements Handler<CreateStockCommandImpl>{
+public class UpdateStockHandler implements Handler<UpdateStockCommandImpl>{
 
 	@Autowired
 	StockServiceApplicationImpl service;
 	
-	public CreateStockHandler(StockServiceApplicationImpl service) {
+	public UpdateStockHandler(StockServiceApplicationImpl service) {
 		this.service = service;
 	}
 
 	
 	@Override
-	public boolean handle(CreateStockCommandImpl cmd) throws Exception {
-		return service.addStock((CreateStockCommandImpl) cmd);
+	public boolean handle(UpdateStockCommandImpl cmd) throws Exception {
+		return service.updateStock((UpdateStockCommandImpl) cmd);
 		
 	}
 

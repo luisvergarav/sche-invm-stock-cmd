@@ -18,9 +18,9 @@ import java.util.UUID;
 public class RestConfig {
 
     @FeignClient( 
-    name = "stock-cmd-event-store",
-    //value = "sche-invm-eventstore" ,
-    url = "http://localhost:8083"  
+    //name = "stock-cmd-event-store",
+    name = "sche-invm-eventstore" 
+    //url = "http://localhost:8083"  
     //fallback = HystrixFallbackEventStoreClient.class  
     )
     public interface EventStoreClient {
@@ -31,6 +31,8 @@ public class RestConfig {
         @GetMapping( path = "/{sku}" )
         DomainEvents getDomainEventsForBoardUuid( @PathVariable( "sku" ) String sku );
 
+        @GetMapping( path = "/check/{sku}" )
+        ResponseEntity check( @PathVariable( "sku" ) String sku );
     }
 
 }

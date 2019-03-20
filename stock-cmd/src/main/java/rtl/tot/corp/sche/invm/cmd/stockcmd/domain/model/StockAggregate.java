@@ -26,10 +26,14 @@ public class StockAggregate {
 		return true;
 	}
 	
-	public boolean createStock(StockService service) {
+	
+	public boolean createStock(StockService service) throws Exception {
 		return service.createStock(this);
 	}
 	
+	public boolean updateStock(StockService service) throws Exception {
+		return service.updateStock(this);
+	}
 	
 	public static class Builder{
 	

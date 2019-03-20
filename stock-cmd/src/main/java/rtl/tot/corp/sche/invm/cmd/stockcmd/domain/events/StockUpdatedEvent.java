@@ -19,7 +19,7 @@ import org.springframework.data.annotation.Id;
 @EqualsAndHashCode( callSuper = true )
 @ToString( callSuper = true )
 @JsonPropertyOrder({ "eventType", "eventId", "occurredOn", "sku", "store","stockAvailable","stockOnLine","purchaseOrden","transferOrden","averageCost" })
-public class StockCreatedEvent extends DomainEvent {
+public class StockUpdatedEvent extends DomainEvent {
 
 	String  sku;
 	Integer store;
@@ -30,7 +30,7 @@ public class StockCreatedEvent extends DomainEvent {
 	Float averageCost;
 
 	@JsonCreator
-	public StockCreatedEvent(
+	public StockUpdatedEvent(
 			String eventId, 
 			@JsonProperty( "occurredOn" ) Instant when, 
 			String sku, 
@@ -58,7 +58,7 @@ public class StockCreatedEvent extends DomainEvent {
 
 
 	@Override
-	@JsonIgnore
+
     public String eventType() {
 
         return this.getClass().getSimpleName();

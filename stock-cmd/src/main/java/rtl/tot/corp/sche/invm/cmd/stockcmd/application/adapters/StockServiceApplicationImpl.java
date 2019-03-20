@@ -13,7 +13,7 @@ public class StockServiceApplicationImpl {
 	StockService service;
 	StockAggregate aggregate;
 
-	public boolean addProduct(CreateStockCommandImpl cmd) {
+	public boolean addStock(CreateStockCommandImpl cmd) throws Exception {
 		
 		
 		aggregate = new  StockAggregate.Builder()
@@ -26,6 +26,24 @@ public class StockServiceApplicationImpl {
 				.transferOrden(cmd.getTransferOrden())
 				.build();
 		if (this.aggregate.createStock(service))
+			return true;
+		else
+			return false;
+
+	}
+public boolean updateStock(UpdateStockCommandImpl cmd) throws Exception {
+		
+		
+		aggregate = new  StockAggregate.Builder()
+				.sku(cmd.getSku())
+				.averageCost(cmd.getAverageCost())
+				.purchaseOrden(cmd.getPurchaseOrden())
+				.stockAvailable(cmd.getStockAvailable())
+				.stockOnLine(cmd.getStockOnLine())
+				.store(cmd.getStore())
+				.transferOrden(cmd.getTransferOrden())
+				.build();
+		if (this.aggregate.updateStock(service))
 			return true;
 		else
 			return false;

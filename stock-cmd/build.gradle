@@ -71,13 +71,14 @@ dependencies {
    	// https://mvnrepository.com/artifact/com.microsoft.azure/azure-servicebus-spring-boot-starter
 	compile group: 'com.microsoft.azure', name: 'azure-servicebus-spring-boot-starter', version: '2.1.0'
 
-// https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-feign
-compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-feign', version: '1.4.6.RELEASE'
+	// https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-feign
+	compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-feign', version: '1.4.6.RELEASE'
 
-// https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-openfeign
-compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-openfeign', version: '2.1.1.RELEASE'
-
-
+	// https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-openfeign
+	compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-openfeign', version: '2.1.1.RELEASE'
+	compile('org.springframework.cloud:spring-cloud-starter-netflix-eureka-client')
+	
+	
 	//swagger
 		compile "io.springfox:springfox-swagger-ui:${springfoxVersion}"
     	compile "io.springfox:springfox-swagger2:${springfoxVersion}"
@@ -87,4 +88,11 @@ compile group: 'com.microsoft.azure', name: 'azure-documentdb-spring-boot-starte
 	compile group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-xml', version: '2.9.7'
 	
     
+}
+
+
+dependencyManagement {
+	imports {
+		mavenBom 'org.springframework.cloud:spring-cloud-dependencies:Finchley.SR2'
+	}
 }

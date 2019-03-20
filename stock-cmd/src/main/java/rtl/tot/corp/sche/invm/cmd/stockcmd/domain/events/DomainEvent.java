@@ -4,6 +4,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonSubTypes;
 import com.fasterxml.jackson.annotation.JsonTypeInfo;
+
 import lombok.Data;
 import lombok.Getter;
 
@@ -11,9 +12,13 @@ import java.time.Instant;
 import java.util.UUID;
 
 import static lombok.AccessLevel.NONE;
-
+@JsonTypeInfo(
+        use = JsonTypeInfo.Id.NAME,
+        include = JsonTypeInfo.As.PROPERTY,
+        property = "eventType"
+)
 @JsonSubTypes({
-        @JsonSubTypes.Type( value = StockCreatedEvent.class, name = "StockCreatedEvent" ),
+        @JsonSubTypes.Type( value = StockCreatedEvent.class, name = "StockCreatedEvent" )
   
 
 })

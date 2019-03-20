@@ -44,21 +44,41 @@ public class EventStoreStockClient implements StockClient {
 
     @Override
     //@HystrixCommand
-    public Stock find( final String boardUuid ) {
+    public DomainEvents find( final String sku ) {
         log.debug( "find : enter" );
 
-        DomainEvents domainEvents = this.eventStoreClient.getDomainEventsForBoardUuid( boardUuid );
+        DomainEvents domainEvents = this.eventStoreClient.getDomainEventsForBoardUuid( sku );
         if( domainEvents.getDomainEvents().isEmpty() ) {
 
-            log.warn( "find : exit, target[" + boardUuid.toString() + "] not found" );
-            throw new IllegalArgumentException( "board[" + boardUuid.toString() + "] not found" );
+        
+            log.warn( "find : exit, target[" + sku.toString() + "] not found" );
+            throw new IllegalArgumentException( "board[" + sku.toString() + "] not found" );
         }
 
+        
         //Board board = Board.createFrom( boardUuid, domainEvents.getDomainEvents() );
         //board.flushChanges();
 
         log.debug( "find : exit" );
-        return null;
+        return domainEvents;
+    }
+    
+    @Override
+    //@HystrixCommand
+    public boolean check( final String sku ) {
+        log.debug( "Check : enter" );
+
+        
+        	ResponseEntity accepted = this.eventStoreClient.check( sku );
+        	if( !accepted.getStatusCode().equals( HttpStatus.ACCEPTED ) ) {
+
+                throw new IllegalStateException( "could not get sku" );
+            }
+        
+            log.warn( "Check : exit, target[" + sku.toString() + "] not found" );
+
+        
+        return true;
     }
 
 }
