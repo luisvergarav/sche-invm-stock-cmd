@@ -7,6 +7,7 @@ import rtl.tot.corp.sche.invm.cmd.stockcmd.domain.events.DomainEvents;
 import rtl.tot.corp.sche.invm.cmd.stockcmd.domain.ports.StockClient;
 import rtl.tot.corp.sche.invm.cmd.stockcmd.infraestructure.adapters.output.eventstore.RestConfig;
 
+import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 
@@ -16,6 +17,7 @@ import java.util.UUID;
 @Slf4j
 public class EventStoreStockClient implements StockClient {
 
+	@LoadBalanced
     private final RestConfig.EventStoreClient eventStoreClient;
 
     public EventStoreStockClient( final RestConfig.EventStoreClient eventStoreClient ) {

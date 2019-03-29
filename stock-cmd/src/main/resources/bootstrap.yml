@@ -3,4 +3,5 @@ eureka:
         serviceUrl:
             defaultZone: ${EUREKA_URI:http://registry-server-v1:8761/eureka}
     instance:
-        preferIpAddress: false
+        preferIpAddress: true
+        non-secure-port: 8091

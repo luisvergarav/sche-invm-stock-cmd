@@ -47,7 +47,7 @@ public class DecoratorCreateStockCommandBus implements CommandBus<CreateStockCom
     				   	        
     			}        
     		} catch (Exception e) {
-    			log.error("Error Sending StockCreateEvent integration Event " + integrationEvent.getMetadata() , e.getLocalizedMessage());
+    			log.error("Error Sending StockCreateEvent integration Event " + integrationEvent.getMetadata() , e);
     		}
 
     		
